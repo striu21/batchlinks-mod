@@ -130,13 +130,13 @@ modelpath = os.path.join(script_path, "models/Stable-diffusion")
 embedpath = os.path.join(script_path, "embeddings")
 vaepath = os.path.join(script_path, "models/VAE")
 lorapath = os.path.join(script_path, "models/Lora")
-addnetlorapath = os.path.join(script_path, "extensions/sd-webui-additional-networks/models/lora")
+addnetlorapath = os.path.join(script_path, "extensions/addnetworks/models/lora")
 hynetpath = os.path.join(script_path, "models/hypernetworks")
-aestheticembedpath = os.path.join(script_path, "extensions/stable-diffusion-webui-aesthetic-gradients/aesthetic_embeddings")
-cnetpath = os.path.join(script_path, "extensions/sd-webui-controlnet/models")
+aestheticembedpath = os.path.join(script_path, "extensions/aesthetic-gradients/aesthetic_embeddings")
+cnetpath = os.path.join(script_path, "extensions/cnetsda/models")
 extpath = os.path.join(script_path, "extensions") #obsolete
 upscalerpath = os.path.join(script_path, "models/ESRGAN")
-lycorispath = os.path.join(addnetlorapath, "lycoris")
+lycorispath = os.path.join(addnetlorapath, "models/LyCORIS")
 
 if vladmandic:
     cnetpath = os.path.join(script_path, "models/ControlNet")
