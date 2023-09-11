@@ -136,7 +136,7 @@ aestheticembedpath = os.path.join(script_path, "extensions/aesthetic-gradients/a
 cnetpath = os.path.join(script_path, "extensions/cnetsda/models")
 extpath = os.path.join(script_path, "extensions") #obsolete
 upscalerpath = os.path.join(script_path, "models/ESRGAN")
-lycorispath = os.path.join(addnetlorapath, "models/LyCORIS")
+lycorispath = os.path.join(script_path, "models/LyCORIS")
 
 if vladmandic:
     cnetpath = os.path.join(script_path, "models/ControlNet")
